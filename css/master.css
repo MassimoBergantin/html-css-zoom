@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+.top-nav {
+    width: 100%;
+    height: 35px;
+    padding: 5px;
+}
+.box-container {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 1650px;
+}
+.bottom-nav {
+    width: 100%;
+    height: 80px;
+    background-color: yellow;
+}
+#top-nav-content {
+    background-color: gray;
+    color: white;
+    font-size: 12px;
+    padding: 8px;
+    float: right;
+    margin-right: 15px;
+    border-radius: 10px;
+}
+.box {
+    width: 200px;
+    background-image: url(https://play-lh.googleusercontent.com/JgU6AIREDMsGLmrFSJ8OwLb-JJVw_jwqdwEZWUHemAj0V5Dl7i7GOpmranv2GsCKobM);
+    background-size: contain;
+    background-position: center;
+    border: 2px solid white;
+    margin: 0px 2px 50px 2px;
+    border-radius: 10px;
+}
+.fa-microphone-slash {
+    margin-top: 130px;
+}
